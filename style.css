@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.button {
+	background-color: rgb(64,64,192);
+	border: none;
+	border-radius: 0.5em;
+	color: white;
+	cursor: pointer;
+	padding: 1em 2em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+}
+
+.button:active {
+	background-color: rgb(96, 96, 156);
+}
+
+#content {
+	position: relative;
+	width: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+	color: #eee;
+	background-color: #222;
+	padding: 10px;
+}
+
+#sidebar h2 {
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+#sidebar p + p {
+	margin-top: 12px;	
+	color: #ffb366;
+}
+
+#main {
+	position: relative;
+	margin: 10px;
+	margin-left: 280px;
+}
+
+.project {
+	width: 800px;
+	background-color: #9cf;
+	padding: 16px;
+}
+
+.project h2 {
+	color: #555;
+	margin-bottom: 16px;	
+}
+
+.project p {
+	margin-bottom: 12px;
+}
+
+.links a {
+	color: #e22;
+	margin-right: 12px;
+}
